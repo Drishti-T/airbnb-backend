@@ -1,39 +1,30 @@
-# Installation
-1. Clone the repository:
+  # Installation
+
+To set up the project, follow these steps:
+
+## 1. Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
 git clone https://github.com/lets-Build-and-debug/airbnb-backend.git
 
 
-After cloning this repo:-
+## 2. Add packages to your root directory
 
-## Adding packages to your root directory
-*** here the root directory is => /airbnb-backend ***
+cd airbnb-backend
+npm install
 
-2. npm install
+npm install axios
+npm install express
+npm install prisma --save-dev
+npm install @prisma/client
+npx prisma init
 
-## packages list
-1 .axios:-
-  - npm install axios
+npx prisma migrate dev --name your_migration_name
+npx prisma generate
 
-2. express:-
-  - npm install express
 
-3. prisma:-
-  - npm install prisma --save-dev 
-             or
-  - yarn add prisma --dev
-
-###installing prisma client:-###
-
-  - npm i @prisma/client
-
- ##Initialize Prisma:-##
-
-  - npx prisma init
-
- ##migrating databse / after making changes to the schema##
-
-  - npx prisma migrate dev --name your_migration_name
-  - npx prisma generate
 
 
 
