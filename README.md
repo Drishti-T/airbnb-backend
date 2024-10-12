@@ -12,11 +12,13 @@ git clone https://github.com/lets-Build-and-debug/airbnb-backend.git
 
 ## 2. Add packages to your root directory
 
-```bash
+```
 cd airbnb-backend
 npm install
-
+```
 npm install axios
+
+```
 npm install express
 npm install prisma --save-dev
 npm install @prisma/client
