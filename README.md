@@ -12,6 +12,7 @@ git clone https://github.com/lets-Build-and-debug/airbnb-backend.git
 
 ## 2. Add packages to your root directory
 
+```bash
 cd airbnb-backend
 npm install
 
