@@ -23,14 +23,18 @@ or
 yarn add prisma --dev
 
 *installing prisma client:-*
+
 npm i @prisma/client
 
 *Initialize Prisma:-*
+
 npx prisma init
 
 *migrating databse / after making changes to the schema*
+
 npx prisma migrate dev --name your_migration_name
 npx prisma generate
+
 
 
 
