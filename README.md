@@ -31,7 +31,7 @@ npm install @prisma/client
 npx prisma init
 ```
 
-## after making changes to the schema run these cmd's below to generate a new migration folder 
+## 4. Migrate Database 
 
 ```
 npx prisma migrate dev --name your_migration_name
