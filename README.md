@@ -11,29 +11,29 @@ After cloning this repo:-
 2. npm install
 
 ## packages list
-###axios:-###
-npm install axios
+1 .axios:-
+  - npm install axios
 
-###express:-###
-npm install express
+2. express:-
+  - npm install express
 
-###prisma:-###
-npm install prisma --save-dev 
-or
-yarn add prisma --dev
+3. prisma:-
+  - npm install prisma --save-dev 
+             or
+  - yarn add prisma --dev
 
-- *installing prisma client:-*
+ ##installing prisma client:-##
 
-npm i @prisma/client
+  - npm i @prisma/client
 
-- *Initialize Prisma:-*
+ ##Initialize Prisma:-##
 
-npx prisma init
+  - npx prisma init
 
-- *migrating databse / after making changes to the schema*
+ ##migrating databse / after making changes to the schema##
 
-npx prisma migrate dev --name your_migration_name
-npx prisma generate
+  - npx prisma migrate dev --name your_migration_name
+  - npx prisma generate
 
 
 
