@@ -16,11 +16,12 @@ git clone https://github.com/lets-Build-and-debug/airbnb-backend.git
 cd airbnb-backend
 npm install
 ```
+```
 npm install axios
-
+```
 ```
 npm install express
-
+```
 ```
 npm install prisma --save-dev
 npm install @prisma/client
