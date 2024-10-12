@@ -16,22 +16,24 @@ git clone https://github.com/lets-Build-and-debug/airbnb-backend.git
 cd airbnb-backend
 npm install
 ```
-```
 ##  1. axios 
+```
 npm install axios
 ```
-```
 ## 2. express ##
+```
 npm install express
 ```
+## 3. prisma 
 ```
-<!-- 3. prisma -->
 npm install prisma --save-dev
 npm install @prisma/client
 npx prisma init
+```
 
-<!-- after making changes to the schema run these cmd's below to generate a new migration folder -->
+## after making changes to the schema run these cmd's below to generate a new migration folder 
 
+```
 npx prisma migrate dev --name your_migration_name
 npx prisma generate
 ```
