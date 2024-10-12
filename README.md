@@ -17,11 +17,11 @@ cd airbnb-backend
 npm install
 ```
 ```
-<!-- 1.axios -->
+##  1. axios 
 npm install axios
 ```
 ```
-<!-- 2. express -->
+## 2. express ##
 npm install express
 ```
 ```
