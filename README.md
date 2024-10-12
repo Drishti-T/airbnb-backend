@@ -22,7 +22,7 @@ After cloning this repo:-
              or
   - yarn add prisma --dev
 
- ##installing prisma client:-##
+###installing prisma client:-###
 
   - npm i @prisma/client
 
